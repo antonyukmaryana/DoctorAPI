@@ -6,7 +6,8 @@
 
 ## Description
 
-DETAILED DESCRIPTION
+### Trivia:)
+The orphanage also needs some help finding a pediatrician for Allie. So they’ve asked you to create a user interface letting them input either a state/location, or the name of a doctor/practice, to get a list of pediatricians including their name, location, website, and whether they’re accepting new patients. They ask you to work with The Better Doctor API .
 
 ### Specs
 | Spec | Input | Output |
