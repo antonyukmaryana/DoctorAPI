@@ -56,7 +56,7 @@ The orphanage also needs some help finding a pediatrician for Allie. So they’v
 
 ## Support and contact details
 
-_Please contact MAryana Antonyuk (amaryana@gmail.com) with questions and comments._
+_Please contact Maryana Antonyuk (amaryana@gmail.com) with questions and comments._
 
 ### License
 

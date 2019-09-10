@@ -1,9 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+
 <head>
-    <title>Project Name</title>
+    <meta charset="utf-8">
+
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <title></title>
 </head>
+
+
 <body>
 
+
+<div class="container">
+
+    <form class='doctorForm'>
+        <label for="name">Please enter name</label>
+        <input class='name' type="text">
+
+        <label for="city">City<label>
+            <input id="city" type="text">
+
+            <button type="submit" id="search" style="font-size:24px">Search <i class="fa fa-ambulance custom"></i></button>
+
+    < /form>
+
+    <div class="showDoctor">
+    </div>
+    <p><span id="result"></span> </p>
+</div>
 </body>
+<section style="background: url('https://d32d8xzgnjxuvk.cloudfront.net/places/1-0/img/hero-bg.jpg') no-repeat;" class="hero d-flex align-items-center">
+    <div class="container">
+
+        <h1>Find your <span class="text-primary">doctor </span></h1>
+
+        <div class="search-bar">
+            <form action="#">
+                <div class="row">
+
+                    <div class="form-group rightLine col-lg-2 col-sm-2 col-md-2">
+                        <input type="text" name="location" placeholder="Location" id="location">
+                        <label for="location" class="location"><i class="fa fa-dot-circle-o"></i></label>
+                    </div>
+
+                    <div class="form-group col-lg-3  col-sm-3 col-md-3">
+                        <input type="search" name="search" placeholder="What">
+                    </div>
+                    <div class="form-group col-lg-3  col-sm-3 col-md-3">
+                        <input type="search" name="search" placeholder="What">
+                    </div>
+                    <div class="form-group col-lg-4  col-sm-3 col-md-3">
+                        <button class="btn btn-lg btn-success">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
 </html>
